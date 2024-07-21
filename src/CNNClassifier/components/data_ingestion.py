@@ -10,8 +10,8 @@ api = KaggleApi()
 api.authenticate()
 
 
-os.environ['KAGGLE_USERNAME'] = "satkum"
-os.environ['KAGGLE_KEY'] = "7857dd4f8622456ba379f7dfc4f4b145"
+os.environ['KAGGLE_USERNAME'] = ""
+os.environ['KAGGLE_KEY'] = ""
 
 class DataIngestion:
     def __init__(self, config: DataIngestionConfig):
